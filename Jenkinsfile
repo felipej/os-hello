@@ -3,7 +3,12 @@ pipeline {
   stages {
     stage('Review') {
       steps {
-        echo 'Revisando código'
+        echo 'Revisando codigo'
+      }
+    }
+    stage('') {
+      steps {
+        echo 'Hola Mundo'
       }
     }
   }
